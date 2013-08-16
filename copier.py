@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'copier.ui'
 #
-# Created: Fri Aug 16 08:36:21 2013
+# Created: Fri Aug 16 08:39:48 2013
 #      by: PyQt4 UI code generator 4.9.1
 #
 # WARNING! All changes made in this file will be lost!
