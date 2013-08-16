@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>470</width>
-    <height>156</height>
+    <height>373</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>0</y>
+     <x>10</x>
+     <y>10</y>
      <width>50</width>
      <height>13</height>
     </rect>
@@ -29,8 +29,8 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>20</y>
+     <x>10</x>
+     <y>30</y>
      <width>50</width>
      <height>13</height>
     </rect>
@@ -39,12 +39,12 @@
     <string>To:</string>
    </property>
   </widget>
-  <widget class="QProgressBar" name="progressBar">
+  <widget class="QProgressBar" name="progressBar_1">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>40</y>
-     <width>431</width>
+     <x>10</x>
+     <y>50</y>
+     <width>451</width>
      <height>23</height>
     </rect>
    </property>
@@ -55,9 +55,9 @@
   <widget class="QProgressBar" name="progressBar_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>80</y>
-     <width>431</width>
+     <x>10</x>
+     <y>90</y>
+     <width>451</width>
      <height>23</height>
     </rect>
    </property>
@@ -65,36 +65,56 @@
     <number>24</number>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="more_btn">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>10</x>
      <y>120</y>
      <width>85</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
-    <string>Show more</string>
+    <string>More</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/1376674312_read_more.png</normaloff>resources/1376674312_read_more.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="cancel_btn">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>380</x>
      <y>120</y>
-     <width>85</width>
+     <width>81</width>
      <height>27</height>
     </rect>
    </property>
    <property name="text">
     <string>Cancel</string>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/1376674461_cancel.png</normaloff>resources/1376674461_cancel.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>14</width>
+     <height>14</height>
+    </size>
+   </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
+  <widget class="QPushButton" name="pause_btn">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>290</x>
      <y>120</y>
      <width>85</width>
      <height>27</height>
@@ -103,6 +123,41 @@
    <property name="text">
     <string>Pause</string>
    </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>resources/1376674063_media-play-pause-resume.png</normaloff>resources/1376674063_media-play-pause-resume.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>451</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>File</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Size</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>State</string>
+    </property>
+   </column>
   </widget>
  </widget>
  <resources/>
